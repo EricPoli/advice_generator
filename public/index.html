@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
 
   <title>App de conselhos</title>
 </head>
@@ -16,21 +16,24 @@
     <div class="content">
 
         <main>
-            <h1 id="advice-number">trhrthtrhtrh</h1>
-            <p id="advice">rthhr</p>
-            <img src="/images/pattern-divider-mobile.svg" alt="divisória">
-            <button>
-                <img src="/images/icon-dice.svg" alt="icone de dado">
-            </button>
+            <div id="advice-content">
+                <h1 id="advice-number"></h1>
+                <p id="advice"></p>
+                <img src="/images/pattern-divider-mobile.svg" alt="divisória">
+                <button title="Update the advice" id="quote-btn">
+                    <img src="/images/icon-dice.svg" alt="icone de dado">
+                </button>
+            </div>
+           
         </main>
     
         <footer>
-            <div class="attribution">
-                Desafio por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">FullStack Mentor</a>. 
-                Codificado por <a href="#">Eric Polini</a>.
+            <div class="attribution"> 
+                Coded by <a title="Link to Linkedin" target="_blank" href="https://www.linkedin.com/in/eric-polini">Eric Polini</a>.
             </div>
         </footer>
 
     </div>
 </body>
+<script src="./script.js"></script>
 </html>

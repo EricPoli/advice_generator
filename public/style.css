@@ -30,22 +30,72 @@ body {
 
 .content {
     margin: auto;
-    gap: 5rem;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2.4rem;
     background-color: var(--Dark-Grayish-Blue);
     border-radius: 1.5rem;
     box-shadow: 3px 5px 18px 4px rgba(0,0,0,0.25);
+    margin-bottom: 5rem;
+}
+
+main #advice-content {
+    padding: 2.4rem 2.4rem 0 2.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 55vw;
+}
+
+main #advice-content h1 {
+    color: var(--Neon-Green);
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+main #advice-content p {
+    color: var(--Light-Cyan);
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+main button {
+    position: relative;
+    top: 2.2rem;
+    margin-top: 1rem;
+
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+    background-color: var(--Neon-Green);
+}
+
+main button:hover {
+    cursor: pointer;
+    background: var(--Neon-Green);
+    box-shadow: 0 0 10px var(--Neon-Green), 0 0 40px var(--Neon-Green), 0 0 80px var(--Neon-Green);
+    transition-delay: .2s;
+}
+
+footer {
+    color: var(--Light-Cyan);
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--Neon-Green);
+}
+
+footer a:hover {
+    text-decoration: underline;
+    transition: 20ms;
 }
 
 
-/* Typography
-
-- Font size (quote): 28px */
 
 
