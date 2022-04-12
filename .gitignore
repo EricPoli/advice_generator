@@ -1,8 +1,8 @@
 *.sketch
 *.fig
 *.xd
-node_modules
-README-template.md
+/node_modules
+.README-template.md
 .gitignore
 .DS_Store
 .prettierignore
